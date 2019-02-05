@@ -3,5 +3,14 @@ table {
   }
   
   th.mat-sort-header-sorted {
-    color: black;
+    color: rgb(82, 5, 5);
+  }
+  .example-full-width  {
+    padding-left: 20%;
+   }
+  .example-full-width1  {
+   padding-left: 10%;
+  }
+  .button{
+  left: 10%;
   }

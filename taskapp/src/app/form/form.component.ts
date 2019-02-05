@@ -8,7 +8,7 @@ import {FormControl, Validators} from '@angular/forms';
 export class FormComponent {
 
   email = new FormControl('', [Validators.required, Validators.email]);
-  password = new FormControl('', [Validators.required]);
+  password = new FormControl();
   hide = true;
   getErrorMessage() {
     return this.email.hasError('required') ? 'You must enter a value' :
@@ -17,7 +17,6 @@ export class FormComponent {
   }
   getErrorMessage1() {
     
-        
-            '';
-  }
+
+         }
 }

@@ -1,4 +1,27 @@
-<h1>Task 1 and 2</h1><table matSort (matSortChange)="sortData($event)">
+<h1>Task 1 and 2</h1>
+
+
+
+<mat-form-field class="example-full-width">
+  <input matInput [matDatepickerFilter]="myFilter" [matDatepicker]="picker" placeholder="Choose Start date">
+  <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+  <mat-datepicker #picker></mat-datepicker>
+</mat-form-field>
+
+
+<mat-form-field class="example-full-width1">
+  <input matInput [matDatepickerFilter]="myFilter1" [matDatepicker]="picker1" placeholder="Choose end date">
+  <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+  <mat-datepicker #picker1></mat-datepicker>
+</mat-form-field>
+
+
+<button class="button" mat-raised-button color="primary">Filter</button>
+
+<mat-divider></mat-divider>
+<br>
+<br>
+<table matSort (matSortChange)="sortData($event)">
   <tr>
     <th mat-sort-header="id">ID</th>
     <th mat-sort-header="city">City</th>
