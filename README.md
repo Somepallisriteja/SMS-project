@@ -1,6 +1,6 @@
 # SMS-project
 Installation Procedure:
 
-Install Angular by using the link:  https://angular.io/guide/quickstart
-Add node dependencies using the link: https://nodejs.org/en/
-Install angular material:  https://material.angular.io/guide/getting-started
+Step 1: Install Angular by using the link:  https://angular.io/guide/quickstart
+Step 2: Add node dependencies using the link: https://nodejs.org/en/
+Step 3: Install angular material:  https://material.angular.io/guide/getting-started
