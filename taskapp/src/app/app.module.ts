@@ -6,7 +6,7 @@ import {MatTableModule, MatSortModule,  MatCardModule, MatButtonModule, MatCheck
 import { AppComponent } from './app.component';
 import { UsertableComponent } from './usertable/usertable.component';
 import { FormComponent } from './form/form.component';
-import { ReactiveFormsModule} from '@angular/forms';
+import { ReactiveFormsModule, FormsModule} from '@angular/forms';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 
@@ -29,6 +29,7 @@ import {MatDatepickerModule} from '@angular/material/datepicker';
     MatCheckboxModule,
     MatInputModule,
     MatDatepickerModule,
+    FormsModule
    
     
 
